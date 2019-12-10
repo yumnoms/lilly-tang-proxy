@@ -1,0 +1,23 @@
+body {
+  margin: 0px 0px;
+}
+
+#reservations {
+  position: sticky;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#wrapper {
+  margin: 0px 120px;
+}
+
+#restaurant-info {
+  width: 600px;
+}
+
+#search-bar {
+  width: 1450px;
+}

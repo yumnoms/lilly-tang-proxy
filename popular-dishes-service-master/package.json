@@ -1,0 +1,69 @@
+{
+  "name": "popular-dishes",
+  "description": "> Project description",
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "scripts": {
+    "webpack-prod": "webpack --build=production",
+    "webpack-dev": "webpack --watch",
+    "seed-db": "node server/mock_data.js",
+    "schema": "mysql -u student -p < schema.sql",
+    "server": "nodemon server/index.js",
+    "test-coverage": "jest --coverage",
+    "test": "jest --watchAll"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "aws-sdk": "^2.585.0",
+    "axios": "^0.19.0",
+    "babel-jest": "^24.9.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "mysql": "^2.17.1",
+    "nodemon": "^2.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "sequelize": "^5.21.2",
+    "styled-components": "^4.4.1",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-styled-components": "^1.10.6",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git",
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootdir>/jest.setup.js",
+    "transformIgnorePatterns": [
+      "/node_modules/(?!@babel).+\\.js$"
+    ],
+    "transform": {
+      "^.+\\.js?$": "babel-jest"
+    }
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yumnoms/popular-dishes.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/yumnoms/popular-dishes/issues"
+  },
+  "homepage": "https://github.com/yumnoms/popular-dishes#readme"
+}
