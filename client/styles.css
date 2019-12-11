@@ -9,13 +9,25 @@ body {
   justify-content: center;
 }
 
-#reservations {
+.right-main-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.right-wrapper {
   position: sticky;
-  z-index: 1;
   top: 0;
   right: 0;
-  display: flex;
-  justify-content: flex-end;
+}
+#restaurant-address {
+  width: 348px;
+}
+
+#reservations {
+  position: sticky;
+  top: 200;
+  right: 0;
 }
 
 #populardishes {
