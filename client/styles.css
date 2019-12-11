@@ -1,0 +1,46 @@
+body {
+  margin: 0px 0px;
+}
+
+.main-wrapper {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.right-main-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.right-wrapper {
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+#restaurant-address {
+  width: 348px;
+}
+
+#reservations {
+  position: sticky;
+  top: 200;
+  right: 0;
+}
+
+#populardishes {
+  z-index: 50;
+}
+#wrapper {
+  margin: 0px 120px;
+}
+
+#restaurant-info {
+  width: 600px;
+}
+
+#search-bar {
+  width: 1450px;
+}
