@@ -2,14 +2,25 @@ body {
   margin: 0px 0px;
 }
 
+.main-wrapper {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 #reservations {
   position: sticky;
+  z-index: 1;
   top: 0;
   right: 0;
   display: flex;
   justify-content: flex-end;
 }
 
+#populardishes {
+  z-index: 50;
+}
 #wrapper {
   margin: 0px 120px;
 }
